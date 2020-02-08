@@ -1,10 +1,9 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    //baseURL: '' // online
-      baseURL: 'https://qcommunicator.herokuapp.com/' // testing
-     //  baseURL: 'http://192.168.1.101:8080/' // testing
+      baseURL: 'https://qcommunicator.herokuapp.com/' // online
+      //baseURL: 'http://192.168.1.132:8080/' // testing
 })
 // const token = localStorage.getItem('token')
-// instance.defaults.headers.common['Authorization'] = 'bearer ' + token
+// instance.defaults.headers.common['Authorization'] = 'Bearer ' + token
 export default instance
